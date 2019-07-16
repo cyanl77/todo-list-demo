@@ -102,6 +102,7 @@ class ListBoard extends React.Component {
 let count = 0;
 class TodoListApp extends React.Component {
     constructor() {
+        super();
         this.state = {
             list: {}
         }

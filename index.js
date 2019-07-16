@@ -174,10 +174,10 @@ var count = 0;
 var TodoListApp = function (_React$Component4) {
     _inherits(TodoListApp, _React$Component4);
 
-    function TodoListApp(props) {
+    function TodoListApp() {
         _classCallCheck(this, TodoListApp);
 
-        var _this5 = _possibleConstructorReturn(this, (TodoListApp.__proto__ || Object.getPrototypeOf(TodoListApp)).call(this, props));
+        var _this5 = _possibleConstructorReturn(this, (TodoListApp.__proto__ || Object.getPrototypeOf(TodoListApp)).call(this));
 
         _this5.state = {
             list: {}
